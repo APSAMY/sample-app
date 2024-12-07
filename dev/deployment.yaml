@@ -17,3 +17,9 @@ spec:
         image: <todo>
         ports:
         - containerPort: 8080
+          # Replace <todo> with the container image name
+spec:
+  containers:
+    - name: sample-app
+      image: gcr.io/qwiklabs-gcp-04-01fd04a0701f/sample-app:v1.0  # Replace with actual project ID
+
